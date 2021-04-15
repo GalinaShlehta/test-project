@@ -1,0 +1,29 @@
+// main: ../style.less
+
+.left__half {
+  width: 680px;
+  height: 1080px;
+
+  @media @mobile {
+    width: 375px;
+    height: 812px;
+
+    background-image: url(/images/background.jpg);
+    background-size: auto 746px;
+    background-position: 60% 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+.right__half {
+  position: absolute;
+
+  margin-left: 680px;
+  top: 0;
+
+  z-index: -1;
+
+  @media @mobile {
+    display: none;
+  }
+}

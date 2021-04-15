@@ -1,0 +1,52 @@
+// compress: true
+
+@import "vars";
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: @dark;
+  background: linear-gradient(180deg, #ffffff 0%, #f2f5fa 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* Block */
+
+@import "blocks/container";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/intro";
+@import "blocks/logo";
+@import "blocks/form";
+@import "blocks/error-message";
+@import "blocks/checkbox";
+@import "blocks/footer";
+@import "blocks/background";
+@import "blocks/halfs";
+
+/* Helpers */
+
+@import "helpers";

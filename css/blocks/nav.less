@@ -1,0 +1,33 @@
+// main: ../style.less
+
+.nav {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+
+  @media @mobile {
+    margin-top: 5px;
+  }
+}
+
+.nav__link {
+  font-family: Arial, Helvetica, sans-serif;
+  color: @dark;
+  font-size: inherit;
+  line-height: 26px;
+  font-weight: 400;
+
+  text-decoration: none;
+  margin-left: 30px;
+
+  &:first-child {
+    margin-left: 0px;
+  }
+
+  @media @mobile {
+    font-size: 14px;
+    line-height: 24px;
+
+    margin-bottom: 0;
+  }
+}
