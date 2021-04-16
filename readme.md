@@ -6,12 +6,12 @@ This is a simple web page to show my work skills with HTML, CSS and JavaScript. 
 
 ## Download and Installation
 
-I wrote this code with [VSCode](https://visualstudio.microsoft.com/downloads/), you also can run the project on your computer with VSCode or with one of the alternative programms like Atom, Brackets or Geany. If you don't have any, please download and install (It's free).
+I wrote this code with [VSCode](https://visualstudio.microsoft.com/downloads/), you also can run the project on your computer with VSCode or with one of the alternative programs like Atom, Brackets or Geany. If you don't have any, please download and install (It's free).
 <br />
 
 ## Preparation
 
-When you downloaded and installed programm, open it! Download zip file with my project on your desktop, unzip it and drag whole folder into VSCode (or alternative programm). Find file index.html and run it! That's all!
+When you downloaded and installed program, open it! Download zip file with my project on your desktop, unzip it and drag whole folder into VSCode (or alternative program). Find file index.html and run it! That's all!
 <br />
 
 ## Task Checking
@@ -24,7 +24,7 @@ The main task is to show how data entry validation works. You can enter differen
 - you don't write anything;
 - you write something that doesn't look like email and don't contain @ sign;
 - your email address ending with **_.co_** (Colombia emails);
-- you doesn't marked checkbox with the user agreement;
+- you didn't marked checkbox with the user agreement;
 
 **Submit button will not be visible until you have met all the conditions!**
 
